@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.chains import RetrievalQA
+#from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 
